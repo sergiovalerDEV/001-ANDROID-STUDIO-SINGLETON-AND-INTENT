@@ -4,11 +4,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="" />
+
     <Button
-        android:id="@+id/btnSaludar2"
+        android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Saludar desde la 2ª pantalla" />
+
+
 
 
 </LinearLayout>
